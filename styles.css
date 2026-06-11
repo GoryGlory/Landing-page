@@ -104,8 +104,9 @@ svg {
 .brand-mark svg {
   width: 28px;
   height: 28px;
-  fill: currentColor;
-  stroke: none;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.4;
 }
 
 .main-nav {
@@ -822,8 +823,9 @@ svg {
 .cta-mark svg {
   width: 44px;
   height: 44px;
-  fill: currentColor;
-  stroke: none;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.4;
 }
 
 .cta-copy,
@@ -927,6 +929,12 @@ svg {
   background: #2f63cc;
   font-weight: 900;
   font-size: 13px;
+}
+
+.footer-social a svg {
+  width: 15px;
+  height: 15px;
+  stroke-width: 2.3;
 }
 
 .copyright {
